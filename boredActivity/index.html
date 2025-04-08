@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bored Activity</title>
+    </head>
+    <body>
+        <h1>Bored Activity Generator</h1>
+
+        <label for="type">Select Activity Type:</label>
+        <select id="type">
+            <option value="">Random</option>
+            <option value="education">Education</option>
+            <option value="recreational">Recreational</option>
+            <option value="social">Social</option>
+            <option value="charity">Charity</option>
+            <option value="cooking">Cooking</option>
+            <option value="relaxation">Relaxation</option>
+            <option value="busywork">Busywork</option>
+        </select>
+
+        <label for="participants">Select Number of Participants:</label>
+        <select id="participants">
+            <option value="">Random</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="8">8</option>
+        </select>
+
+        <button id="getActivity">Get Activity</button>
+        <div id="activityResult"></div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
